@@ -27,3 +27,5 @@ How to run Config-server Application
 1. Copy all files in resources/keystore to any directory
 2. And Change bootstrap.yml with path e.g. key-store:
 3. Run ConfigServerApplication
+
+Note: Please note that vault-cert.pkcs12 keystore contains both vault-cert-certificate.pem and vault-cert-private-key.pem. These two certificates should be uploaded into Vault.
